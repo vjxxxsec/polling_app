@@ -1,27 +1,13 @@
 ## Building a Full Stack Polls app similar to twitter polls with Spring Boot, Spring Security, JWT, React and Ant Design
 
-### Live Demo
- 	 
-The application is hosted on AWS free tier. Check out the live demo at https://polls.callicoder.com
+
 
 ### Tutorials
-
-I've written a complete tutorial series for this application on The CalliCoder Blog -
-
-+ [Part 1: Bootstrapping the Project and creating the basic domain models and repositories](https://www.callicoder.com/spring-boot-spring-security-jwt-mysql-react-app-part-1/)
-
-+ [Part 2: Configuring Spring Security along with JWT authentication and Building Rest APIs for Login and SignUp](https://www.callicoder.com/spring-boot-spring-security-jwt-mysql-react-app-part-2/)
-
-+ [Part 3: Building Rest APIs for creating Polls, voting for a choice in a Poll, retrieving user profile etc](https://www.callicoder.com/spring-boot-spring-security-jwt-mysql-react-app-part-3/)
-
-+ [Part 4: Building the front-end using React and Ant Design](https://www.callicoder.com/spring-boot-spring-security-jwt-mysql-react-app-part-4/)
-
-## Steps to Setup the Spring Boot Back end app (polling-app-server)
 
 1. **Clone the application**
 
 	```bash
-	git clone https://github.com/callicoder/spring-security-react-ant-design-polls-app.git
+	git clone https://github.com/vjxxxsec/polling_app.git
 	cd polling-app-server
 	```
 
@@ -45,14 +31,9 @@ I've written a complete tutorial series for this application on The CalliCoder B
 	mvn spring-boot:run
 	```
 
-	The server will start on port 5000. The spring boot app includes the front end build also, so you'll be able to access the complete application on `http://localhost:5000`.
+	The server will start on port 8080. 
 
-	You can also package the application in the form of a `jar` file and then run it like so -
-
-	```bash
-	mvn package
-	java -jar target/polls-0.0.1-SNAPSHOT.jar
-	```
+	
 5. **Add the default Roles**
 	
 	The spring boot app uses role based authorization powered by spring security. Please execute the following sql queries in the database to insert the `USER` and `ADMIN` roles.
@@ -75,7 +56,8 @@ cd polling-app-client
 Then type the following command to install the dependencies and start the application -
 
 ```bash
-npm install && npm start
+npm install
+npm start
 ```
 
 The front-end server will start on port `3000`.
