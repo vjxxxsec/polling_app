@@ -1,4 +1,4 @@
-## Building a Full Stack Polls app similar to twitter polls with Spring Boot, Spring Security, JWT, React and Ant Design
+  ## Building a Full Stack Polls app similar to twitter polls with Spring Boot, Spring Security, JWT, React and Ant Design
 
 
 
@@ -72,14 +72,14 @@ App Actions:
 
 Signup	      :    User can provide the details and create the username and password.
 Login	      :   User can provide username and password to login.
-Poll creation :	After logging in user can create the poll and give the options to select.
-Vote in poll  :	User can vote for the available polls.
-Logout	      :  User can logout from the application.
+Poll creation :	  After logging in user can create the poll and give the options to select.
+Vote in poll  :	  User can vote for the available polls.
+Logout	      :   User can logout from the application.
 
 NOTE:
      —> User can control the lifetime of poll.
-     —> User can view the personal information provided while signing up in profile section.
-     —> User can create as many polls they want.
+     —> User can view the personal information in profile section.
+     —> No limitation for the polls count.
 
 
 
