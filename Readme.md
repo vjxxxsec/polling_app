@@ -61,3 +61,6 @@ npm start
 ```
 
 The front-end server will start on port `3000`.
+
+Hit this URL in browser http://localhost:3000/
+
