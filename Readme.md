@@ -18,12 +18,15 @@
 	```
 
 3. **Change MySQL username and password as per your MySQL installation**
+   
 
 	+ open `src/main/resources/application.properties` file.
 
 	+ change `spring.datasource.username` and `spring.datasource.password` properties as per your mysql installation
+ 	+ server.port= 8080
 
-4. **Run the app**
+
+5. **Run the app**
 
 	You can run the spring boot app by typing the following command -
 
@@ -34,7 +37,7 @@
 	The server will start on port 8080. 
 
 	
-5. **Add the default Roles**
+6. **Add the default Roles**
 	
 	The spring boot app uses role based authorization powered by spring security. Please execute the following sql queries in the database to insert the `USER` and `ADMIN` roles.
 
