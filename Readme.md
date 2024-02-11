@@ -69,12 +69,12 @@ Hit this URL in browser http://localhost:3000/
 
 App Actions:
 
-Action                           Desc
-Signup	        User can provide the details and create the username and password
-Login	        User can provide username and password to login
-Poll creation	After logging in user can create the poll and give the options to select
-Vote in poll	User can vote for the available polls
-Logout	        User can logout from the application
+
+Signup	      :    User can provide the details and create the username and password
+Login	      :   User can provide username and password to login
+Poll creation :	After logging in user can create the poll and give the options to select
+Vote in poll  :	User can vote for the available polls
+Logout	      :  User can logout from the application
 
 NOTE:
      —> User can control the lifetime of poll.
